@@ -1,0 +1,42 @@
+.alpha {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+@media (max-width: 850px) {
+  .alpha {
+    margin: 35px 35px;
+  }
+}
+.d1 {
+  max-width: 1000px;
+  margin: auto;
+}
+/* HEIGHLIGHT TEXT */
+.highlight {
+  background-color: yellow;
+}
+/* LINK */
+a {
+  color: black;
+  text-decoration: underline;
+}
+/* MEDIUM HEADLINE */
+.d1a p {
+  font-weight: 700;
+  font-size: 2rem;
+}
+/* LARGE HEADLINE */
+.d1b p {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+/* STANDARD FONT */
+.stdfont {
+  font-size: 1.2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.d1f a {
+  text-decoration: none;
+}
